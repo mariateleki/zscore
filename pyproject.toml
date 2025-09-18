@@ -1,0 +1,19 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zscore"
+version = "1.0.0"
+description = "Zscore."
+readme = "readme.md"
+authors = [{ name = "Your Name", email = "mariateleki@tamu.edu" }]
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Homepage = "."
+
+[tool.setuptools.packages.find]
+where = ["src"]
